@@ -23,10 +23,9 @@ html.js
     #wrap
       // Video Wrap
       section#video-wrap
-        video(autoplay loop tabindex="0").vidos
+        img(src='static/img/bg.gif').ios-gif
+        video(autoplay='true' loop="true" tabindex="0" controls="false").vidos
           source(src='static/img/bg.mp4' type="video/mp4")
-          source(src='static/img/bg.ogv' type="video/ogv")
-          source(src='static/img/bg.webm' type="video/webm")
         .container
           .row
             .col-md-12
@@ -168,7 +167,7 @@ html.js
               form#contact-form.form.afsana-form(method='post', role='form', action='contacts.php')
                 .row
                   .col-sm-12.form-group
-                    input#name.form-control.afsana-style(name='name', placeholder='Ваше Имя', type='text', required='', autofocus='')
+                    input#name.form-control.afsana-style(name='name', placeholder='Ваше Имя', type='text', required='')
                   .col-sm-12.form-group
                     input#email.form-control.afsana-style(name='email', placeholder='Ваша почта', type='email', required='')
                   .col-sm-12.form-group

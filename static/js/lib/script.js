@@ -20,7 +20,34 @@ $("#video-wrap").css({
     'min-height': vidHeight
 });
 
+if(iOS()){
+    $('.vidos').css({
+        'display':'none'
+    });
+    $('.ios-gif').css({
+        'display':'block'
+    });
+}
 
+function iOS() {
+
+  var iDevices = [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ];
+
+  if (!!navigator.platform) {
+    while (iDevices.length) {
+      if (navigator.platform === iDevices.pop()){ return true; }
+    }
+  }
+
+  return false;
+}
 
 $(window).on('resize', function(){
     vidWidth = $(window).width();
