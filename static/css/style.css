@@ -875,6 +875,7 @@ padding-top: 140px;
 
 #video-wrap {
     position: relative;
+    overflow: hidden;
 }
 .vidos {
     position: absolute;
