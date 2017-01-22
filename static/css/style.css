@@ -661,7 +661,7 @@ h1 span {
 
 @media all and (max-width: 768px) {
  .navbar-brand {
-font-size: 16px;
+font-size: 15px;
 color: #fff !important;
 font-weight: 400;
 padding: 15px 5px;
@@ -686,7 +686,7 @@ padding-top: 140px;
     }
     .logo {
         max-width: 100%;
-        margin: 0;
+        margin: 15px 0 0;
         top: 8%;
     }
     #mobile-nav {

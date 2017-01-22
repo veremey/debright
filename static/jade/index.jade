@@ -23,11 +23,10 @@ html.js
     #wrap
       // Video Wrap
       section#video-wrap
-        video(autoplay loop).vidos
+        video(autoplay loop controls='false').vidos
           source(src='static/img/bg.mp4' type="video/mp4")
           source(src='static/img/bg.ogv' type="video/ogv")
           source(src='static/img/bg.webm' type="video/webm")
-        //- #video
         .container
           .row
             .col-md-12
@@ -215,15 +214,10 @@ html.js
     script(type='text/javascript').
       VK.Widgets.Group("vk_groups", {mode: 3, width: "220"}, 137771391);
     script(src='static/js/lib/bootstrap.min.js')
-    script(src='static/js/lib/jquery.videoBG.js')
     script(src='static/js/lib/jquery.sticky-kit.min.js')
     script(src='static/js/lib/wow.min.js')
     script(src='static/js/lib/kinetic.js')
     script(src='static/js/lib/jquery.final-countdown.min.js')
     script(src='static/js/lib/script.js')
-    script.
-      $(".videoBG_wrapper, .videoBG").css({
-      'width': $(window).width(),
-      'height': $('#video-wrap').height()
-      });
+
     // All the scripts Ends

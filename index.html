@@ -24,7 +24,7 @@
     <div id="wrap">
       <!-- Video Wrap-->
       <section id="video-wrap">
-        <video autoplay loop class="vidos">
+        <video autoplay loop controls="false" class="vidos">
           <source src="static/img/bg.mp4" type="video/mp4">
           <source src="static/img/bg.ogv" type="video/ogv">
           <source src="static/img/bg.webm" type="video/webm">
@@ -234,18 +234,11 @@
     <script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
     <script type="text/javascript">VK.Widgets.Group("vk_groups", {mode: 3, width: "220"}, 137771391);</script>
     <script src="static/js/lib/bootstrap.min.js"></script>
-    <script src="static/js/lib/jquery.videoBG.js"></script>
     <script src="static/js/lib/jquery.sticky-kit.min.js"></script>
     <script src="static/js/lib/wow.min.js"></script>
     <script src="static/js/lib/kinetic.js"></script>
     <script src="static/js/lib/jquery.final-countdown.min.js"></script>
     <script src="static/js/lib/script.js"></script>
-    <script>
-      $(".videoBG_wrapper, .videoBG").css({
-      'width': $(window).width(),
-      'height': $('#video-wrap').height()
-      });
-    </script>
     <!-- All the scripts Ends-->
   </body>
 </html>
