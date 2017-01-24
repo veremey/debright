@@ -1,3 +1,5 @@
+# Чужая работа, просили поправить код
+
 ## Technologies
 
 * SASS
@@ -13,8 +15,6 @@
 ### Packege maneger
 
 * npm
-
-* bower
 
 ### Automatization
 
